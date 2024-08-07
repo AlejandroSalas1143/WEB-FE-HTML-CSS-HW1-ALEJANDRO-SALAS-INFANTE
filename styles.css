@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Quicksand:wght@300;500;700&display=swap');
+
 body{
+    font-family: "merriweather", serif;
     margin: 0;
 }
 header{
@@ -11,21 +14,21 @@ header{
 h1{
     margin: 0;
     color: white;
-    padding: 20px 50px 0px 50px;
+    padding: 20px 100px 0px 100px;
 }
-h3{
+header h3{
     color: white;
-    padding: 0px 50px;
+    padding: 0px 100px;
 }
-img{
+header img{
     width: 150px;
     height: 150px;
     border-radius: 100%;
     /* text-align: right; */
 }
-p{
+header p{
     color: white;
-    padding: 0px 50px;
+    padding: 0px 100px;
 }
 
 footer{
@@ -33,6 +36,7 @@ footer{
     text-align: center;
 }
 footer p{
+    color: white;
     margin: 0;
 }
 
@@ -41,6 +45,9 @@ a img{
     height: 30px;
     margin: 0px 2px 0px 2px;
 }
+section{
+    margin: 0px 100px;
+}
 .header-content {
     display: block;
     /* overflow: hidden; */
@@ -48,6 +55,20 @@ a img{
 
 .header-container {
     display: inline-block;
-    width: calc(100% - 200px); 
+    width: calc(100% - 300px); 
     /* vertical-align: top; */
+}
+.title-section{
+    margin-top: 20px;
+}
+.title-section img{
+    width: 50px;
+    height: 50px;
+    /* border-radius: 100%; */
+    margin: 0px 10px 0px 0px;
+}
+.title-section img,
+.title-section h2{
+    display: inline-block;
+    vertical-align: middle;
 }
