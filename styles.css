@@ -48,6 +48,14 @@ a img{
 section{
     margin: 0px 100px;
 }
+li p,
+li h3{
+    display: inline-block;
+    vertical-align: middle;
+}
+li p{
+    margin: auto 30px;
+}
 .header-content {
     display: block;
     /* overflow: hidden; */
