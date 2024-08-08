@@ -6,34 +6,40 @@ body{
 }
 header{
     /* width: 100%; */
-    background-image: url(images/fondo_header.jpeg);
+    background-image: url(images/fondo_header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: inline-block;
+    /* border: solid 10px black; */
+    /* border-radius: 1%; */
 }
 h1{
     margin: 0;
     color: white;
-    padding: 20px 100px 0px 100px;
+    padding: 20px 200px 0px 200px;
 }
 header h3{
     color: white;
-    padding: 0px 100px;
+    padding: 0px 200px;
 }
 header img{
     width: 150px;
     height: 150px;
     border-radius: 100%;
-    /* text-align: right; */
+    border: white 5px solid;
 }
 header p{
     color: white;
-    padding: 0px 100px;
+    margin: 4px 200px;
+    background-color: rgba(45, 42, 42, 0.793);
+    border-radius: 10px;
+    padding: 10px;
 }
 
 footer{
-    background-color: black;
+    background-color: #1e3a8a;
     text-align: center;
+    padding: 10px;
 }
 footer p{
     color: white;
@@ -45,13 +51,35 @@ a img{
     height: 30px;
     margin: 0px 2px 0px 2px;
 }
+main{
+    /* background-image: url(images/prueba.jpg); */
+    background-color: rgb(1, 13, 88);
+    padding: 10px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main h3,
+main h2{
+        color: #1e3a8a;
+
+}
 section{
-    margin: 0px 100px;
+    background-color: rgba(255, 255, 255, 0.874);
+    margin: 0px 200px;
+    padding: 20px;
+    border: #005eaa 5px dashed;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
 }
 li p,
 li h3{
     display: inline-block;
     vertical-align: middle;
+}
+li h3{
+    width: 500px;
 }
 li p{
     margin: auto 30px;
@@ -63,7 +91,7 @@ li p{
 
 .header-container {
     display: inline-block;
-    width: calc(100% - 300px); 
+    width: calc(100% - 400px); 
     /* vertical-align: top; */
 }
 .title-section{
@@ -72,11 +100,27 @@ li p{
 .title-section img{
     width: 50px;
     height: 50px;
-    /* border-radius: 100%; */
     margin: 0px 10px 0px 0px;
 }
 .title-section img,
 .title-section h2{
     display: inline-block;
     vertical-align: middle;
+}
+
+.wide-hr {
+    border: none;
+    height: 3px;
+    background-color: #1e3a8a;
+    margin: 20px 0;
+    border-radius: 2px;
+}
+
+a {
+    color: #1e3a8a;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
